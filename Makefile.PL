@@ -6,14 +6,19 @@ use 5.014;
 use ExtUtils::MakeMaker;
 
 my %RUN_DEPS = (
-    'File::Find::Rule'     => 0,
-    'Moo'                  => 0,
-    'MooX::Cmd'            => 0,
-    'MooX::ConfigFromFile' => 0,
-    'MooX::Log::Any'       => 0,
-    'MooX::Options'        => 0,
-    'RRDTool::OO'          => 0,
-    'Sys::Hostname'        => 0,
+    'File::Basename'         => 0,
+    'File::Find::Rule'       => 0,
+    'File::Spec'             => 0,
+    'List::Util'             => 0,
+    'Moo'                    => 0,
+    'MooX::Cmd'              => 0,
+    'MooX::ConfigFromFile'   => 0,
+    'MooX::Log::Any'         => 0,
+    'MooX::Options'          => 0,
+    'MooX::Roles::Pluggable' => 0,
+    'Params::Util'           => 0,
+    'RRDTool::OO'            => 0,
+    'Sys::Hostname'          => 0,
 );
 my %CONFIGURE_DEPS = (
     'ExtUtils::MakeMaker' => 0,
